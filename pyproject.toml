@@ -21,7 +21,10 @@ dependencies = [
     "g2p-en",
     "transformers",
     "numba",
-    "huggingface_hub",
+    "huggingface-hub",
+    "onnxruntime>=1.20.1",
+    "gradio>=4.44.1",
+    "nltk>=3.9.1",
 ]
 
 [project.optional-dependencies]
